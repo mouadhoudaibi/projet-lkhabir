@@ -1,0 +1,9 @@
+# Handle line endings automatically for all text files
+* text=auto
+
+# Force LF line endings for PHP files
+*.php text eol=lf
+
+# Force LF line endings for other types of files like JavaScript, CSS, etc.
+*.js text eol=lf
+*.css text eol=lf
